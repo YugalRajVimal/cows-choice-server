@@ -21,6 +21,8 @@ const PORT = process.env.PORT || 5050;
 // ==============================
 const allowedOrigins = [
   // "http://localhost:5173",
+  "https://cowschoice.com",
+  "https://www.cowschoice.com",
   "https://dairy-products-mvxa.onrender.com/"
 ];
 
