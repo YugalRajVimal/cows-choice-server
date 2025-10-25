@@ -56,7 +56,7 @@ router.post("/send", async (req, res, next) => {
     // --- Admin Email (Owner gets details)
     const adminMail = {
       from: `"Website Form" <${process.env.ADMIN_EMAIL}>`,
-      to: process.env.ADMIN_EMAIL,
+      to: process.env.RECIEVING_MAIL,
       subject: "New Enquiry Received",
       html: `
         <h2>New Form Submission</h2>
